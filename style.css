@@ -34,8 +34,9 @@ html, body {
   height: 40px;
   width: 240vh;  
 }
-.search{
-  font-size: 25px;    
+.search-icon{
+    width: 2em;
+    height: 2em;  
   }
 .logo{
   display: flex;
@@ -48,8 +49,9 @@ html, body {
     
   }
 .globe{ 
-  font-size: 25px; 
-  text-decoration: none;
+   image-resolution: 10px;
+   width: 2em;
+   height: 2em;
 }
 
 .hero{
