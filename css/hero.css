@@ -1,8 +1,8 @@
-.hero{
-    border: 1px solid rgb(87, 75, 60);
+.hero{ 
     display: flex;
-    height: 400px;
-    width: 241vh;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    width: 268.5vh; 
   }
   .inspire{
     font-size: 30px;
@@ -16,9 +16,9 @@
       border: 2px solid var(--gray);
       font-weight: bold;
       text-decoration: none;
-      line-height: 40px;  
+      line-height: 40px;   
   }
   .read .button.gray:hover {
       background: var(--gray);
-      color:var(--white, white);
+      color: var(--white, white);
   }
