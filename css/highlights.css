@@ -1,0 +1,16 @@
+.boxes{
+    display: flex;
+    background: gray;
+  }
+  .box-1{  
+    height: 400px;  
+    background: yellow;
+  }
+  .box-2{
+    height: 300px;
+    background: blue;
+  }
+  .quoted-text{
+    font-size: 25px;
+    margin-bottom: 2rem;
+  }
