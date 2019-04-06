@@ -163,11 +163,13 @@ visibility: visible;
 
 
 
-}
 
 .block {
     padding: .25rem;
-    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    color: white;
   }
   
   .block-container-B {
@@ -179,8 +181,7 @@ visibility: visible;
   
   .block-container-B > * {
     background: rgb(116, 139, 165);
-    color: white;
-  }
+    }
   
   .block-1 {
     grid-column: 1/5;
@@ -188,7 +189,11 @@ visibility: visible;
     background: rgb(221, 113, 113);
     color: white;
     height: 31rem;
-    }
+    background-image: url(https://source.unsplash.com/random/2400x1200);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top; 
+  }
    /* background-image: url(Thispc\bictuers\bmw_1er_xs.jp) ;
     background-size:cover;
     background-repeat:non-repeat;
@@ -274,6 +279,7 @@ visibility: visible;
     grid-column: 5/7;
     grid-row: span 2;
     height: 150px;
+  }
   
   @media (max-width: 500px) {
     .item {
@@ -281,3 +287,4 @@ visibility: visible;
       grid-gap: 2px;
     }  
   }
+
