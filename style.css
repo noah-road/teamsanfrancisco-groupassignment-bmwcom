@@ -1,88 +1,16 @@
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 :root {
-  --black: #262626;
-  --gray: #4d4d4d;
-  --white: #ffffff;
+    --black: #262626;
+    --gray: #4d4d4d;
+    --white: #ffffff;
 }
 
 html, body {
-  color: var(--black);
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  margin: 0;    
-  display: flex;
-  flex-direction: column;   
-  max-width: 800vh;  
-}
-.header{  
- display: flex;
- flex-direction: column;
- border: 1px solid black;
- justify-content: space-between; 
- font-size: 15px;
- height: 80px;    
-}
-.lists{
-display: flex;
-justify-content: space-between; 
-font-size: 12px;
-align-items: center;
-height: 50px;  
-}
-.search-icon{
-width: 2em;
-height: 2em;
-}
-.logo{
-display: flex;
-padding-top: 7rem;
-}
-.vertical-line{
-  border:  .025rem solid #4455;
-  height: 31px;   
-}
-.globe{
- image-resolution: 10px;
- width: 2em;
- height: 2em;
-}
-
-.hero{ 
-display: flex;
-padding-left: 3rem;
-padding-top: 3rem;
-}
-.inspire{
-font-size: 30px;
-}
-.read {
-  padding-left: 3rem;
-  width: 10rem;
-}
-.read {
-  color: var(--gray);
-  border: 2px solid var(--gray);
-  font-weight: bold;
-  text-decoration: none;
-  line-height: 40px;   
-}
-.read .button.gray:hover {
-  background: var(--gray);
-  color:var(--white, white);
-}
-.boxes{
-display: flex;  
-}
-.box-1{  
-width: 100vh;  
-}
-.box-2{ 
-display: flex;
-}
-.quoted-text{
-font-size: 25px;
-margin-bottom: 2rem;
+    color: var(--black);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
 }
