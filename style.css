@@ -311,7 +311,7 @@ html, body {
 .footer-container {
     background-color: rgb(41, 41, 41);
     height: 689px;
-    width: 1483px;
+    max-width: 1483px;
 }
 .header-footer {
     padding: 15px 0px;
