@@ -1,13 +1,9 @@
 .boxes{
   display: flex;
-    
+  border: 1px solid red;
+  width: 1585px  
 }
-.box-1{  
-  width: 100vh; 
-}
-.box-2{ 
-  
-}
+
 .quoted-text{
   font-size: 25px;
   margin-bottom: 2rem;
