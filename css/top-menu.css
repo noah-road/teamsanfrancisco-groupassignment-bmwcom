@@ -2,18 +2,20 @@
     
   display: flex;
   flex-direction: column;
-  
   justify-content: space-between; 
   font-size: 15px;
   width: 1587px;
    height: 90px;
 }
 .lists{
- display: flex;
- justify-content: space-between; 
- font-size: 12px;
- align-items: center;
- height: 77px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between; 
+  font-size: 12px;
+  align-items: center;
+  height: 77px;
  
 }
 .search-icon{
