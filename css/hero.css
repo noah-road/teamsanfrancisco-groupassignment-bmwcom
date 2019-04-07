@@ -1,8 +1,12 @@
 .hero{ 
     display: flex;
-    padding-left: 3rem;
-    padding-top: 3rem;
-    width: 268.5vh; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  align-content: end;
+  position:relative;
+  border: 1px solid black;
+ width: 1585px;
   }
   .inspire{
     font-size: 30px;
