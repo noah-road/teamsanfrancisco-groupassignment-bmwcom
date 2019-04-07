@@ -1,0 +1,28 @@
+.hero{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    align-content: end;
+    position:relative;
+    border: 1px solid black;
+    width: 1585px;
+  }
+  .inspire{
+    font-size: 30px;
+  }
+  .read {
+      padding-left: 3rem;
+      width: 10rem;
+  }
+  .read {
+      color: var(--gray);
+      border: 2px solid var(--gray);
+      font-weight: bold;
+      text-decoration: none;
+      line-height: 40px;   
+  }
+  .read .button.gray:hover {
+      background: var(--gray);
+      color: var(--white, white);
+  }
