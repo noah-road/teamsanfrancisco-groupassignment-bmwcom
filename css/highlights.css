@@ -1,7 +1,7 @@
 .boxes{
   display: flex;
   border: 1px solid red;
-  width: 1585px  
+  width: 1585px;  
 }
 
 .quoted-text{
