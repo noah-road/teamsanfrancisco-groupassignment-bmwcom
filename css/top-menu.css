@@ -8,6 +8,9 @@
   height: 90px;
   width: 1587px;
 }
+.header:hover{
+    color: blue;
+}
 .lists{
   left: 0;
   bottom: 0;
