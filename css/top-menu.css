@@ -19,6 +19,9 @@
   padding-left: 10rem;
  
 }
+.lists:hover{
+    color: blue;
+}
 .search-icon{
  width: 2em;
  height: 2em;
