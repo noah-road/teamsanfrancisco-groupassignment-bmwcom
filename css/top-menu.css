@@ -5,15 +5,15 @@
   
   justify-content: space-between; 
   font-size: 15px;
-  height: 80px;    
-  width: 268.5vh;
+  width: 1587px;
+   height: 90px;
 }
 .lists{
  display: flex;
  justify-content: space-between; 
  font-size: 12px;
  align-items: center;
- height: 50px;
+ height: 77px;
  
 }
 .search-icon{
