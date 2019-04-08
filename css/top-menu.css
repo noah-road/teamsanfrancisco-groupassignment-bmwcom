@@ -34,8 +34,8 @@
 }
 
  .vertical-line{
-   border:  .025rem solid #4455;
-   height: 31px;   
+  border: .05rem solid gray;
+    height: 35px;   
  }
 .globe{
   image-resolution: 10px;
