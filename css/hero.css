@@ -1,12 +1,12 @@
-.hero{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    align-content: end;
-    position:relative;
-    border: 1px solid black;
-    width: 1585px;
+.video-container video{
+    width: 1580px;
+    display: block;
+  }
+  .video-container{
+    margin-top: 2rem;
+    outline: 1px solid #dadada;
+    background: red;
+    
   }
   .inspire{
     font-size: 30px;
