@@ -4,7 +4,9 @@
   }
   .video-container{
     position: relative;
-    
+    margin-top: 2rem;
+    outline: 1px solid #dadada;
+    background: red;
   }
   .inspire{
     font-size: 30px;
@@ -24,9 +26,4 @@
       background: var(--gray);
       color: var(--white, white);
   }
-  margin-top: 2rem;
-  outline: 1px solid #dadada;
-  background: red;
-
-  width: 1580px;
-  display: block;
+  
