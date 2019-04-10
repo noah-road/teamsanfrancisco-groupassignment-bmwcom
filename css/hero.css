@@ -1,28 +1,32 @@
-.video-container video{
-    width: 1580px;
-    display: block;
-  }
-  .video-container{
-    margin-top: 2rem;
-    outline: 1px solid #dadada;
-    background: red;
-    
-  }
-  .inspire{
-    font-size: 30px;
-  }
-  .read {
-      padding-left: 3rem;
-      width: 10rem;
-  }
-  .read {
-      color: var(--gray);
-      border: 2px solid var(--gray);
-      font-weight: bold;
-      text-decoration: none;
-      line-height: 40px;   
-  }
-  .read .button.gray:hover {
-      background: var(--gray);
-      color: var(--white, white);
-  }
+.video-container video {
+  width: 1580px;
+  display: block;
+}
+
+.video-container {
+  margin-top: 2rem;
+  outline: 1px solid #dadada;
+  background: red;
+}
+
+.inspire {
+  font-size: 30px;
+}
+
+.read {
+  padding-left: 3rem;
+  width: 10rem;
+}
+
+.read {
+  color: var(--gray);
+  border: 2px solid var(--gray);
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.read .button.gray:hover {
+  background: var(--gray);
+  color: var(--white, white);
+}
