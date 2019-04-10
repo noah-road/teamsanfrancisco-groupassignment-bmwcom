@@ -8,20 +8,18 @@
       grid-template-columns: 1fr;
   }
 }
-.wrapper-text {
+.all-texts {
   padding-bottom: 5rem;
-  padding-left: 2rem;
+  padding-left: 2rem;  
 }
-
-
-.wrapper-text h1 {
+.p {
   font-size: 2rem;
   font-weight: bolder;
   color: white;
 }
 
-.wrapper-text h2 {
-  font-size: 2rem;
+.span {
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
@@ -31,7 +29,7 @@
   color: white;
   font-size: 1rem;
   padding: 1rem 2rem;
-  padding-bottom: 3rem;
+  
 }
 
 .read:hover {
@@ -59,4 +57,5 @@
   bottom: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: -1;
-}
+  
+} 
