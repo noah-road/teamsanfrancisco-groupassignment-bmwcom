@@ -1,14 +1,60 @@
-.highlights{
-  display: flex;
-  width: 1585px;  
+.highlights {
+  display: grid;
+  grid-gap: 0.1rem;
+  grid-template-columns: 1fr 1fr;
 }
-.video-container video{
-  transform: translateX(-50%) translate(-50%);
-  z-index: -1;
-  
+@media screen and (max-width:420px) {
+  .highlights {
+      grid-template-columns: 1fr;
+  }
 }
-.quoted-text{
-  font-size: 25px;
-  margin-bottom: 2rem;
+.wrapper-text {
+  padding-bottom: 5rem;
+  padding-left: 2rem;
 }
 
+
+.wrapper-text h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.wrapper-text h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.read {
+  border: 0.2rem solid white;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
+.read:hover {
+  background-color: white;
+  color: black;
+}
+
+.video-container {
+  color: white;
+  display: grid;
+  align-items: end;
+  height: 500px;
+  width: 1fr;
+  overflow: hidden;
+  position: relative;
+}
+
+.bmw-Video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
