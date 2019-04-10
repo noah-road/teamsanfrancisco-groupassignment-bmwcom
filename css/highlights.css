@@ -31,6 +31,7 @@
   color: white;
   font-size: 1rem;
   padding: 1rem 2rem;
+  padding-bottom: 3rem;
 }
 
 .read:hover {
@@ -43,6 +44,7 @@
   display: grid;
   align-items: end;
   height: 500px;
+  width: 793px;
   width: 1fr;
   overflow: hidden;
   position: relative;
