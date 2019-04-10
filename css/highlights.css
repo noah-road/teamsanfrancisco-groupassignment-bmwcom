@@ -17,13 +17,9 @@
   font-size: 25px;
   margin-bottom: 2rem;
 }
-.video-container video{
+
+.highlights .video-container video {
   transform: translateX(-50%) translate(-50%);
   z-index: -1;
-  
-}
-.quoted-text{
-  font-size: 25px;
-  margin-bottom: 2rem;
-}
 
+}
