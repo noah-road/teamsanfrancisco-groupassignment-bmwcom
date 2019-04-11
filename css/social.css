@@ -5,13 +5,11 @@
     flex-wrap: wrap;
     margin-bottom: 125px;
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .blocks-container {
         min-height: 100vh;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-bottom: 125px;
+        flex-wrap: wrap;  
     }
 }
 .boxes {
@@ -21,6 +19,11 @@
     margin: 0px 15px 15px 15px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+}
+@media (max-width: 1138px){
+    .third-box {
+        margin-top: 50px;
+    }
 }
 .second-box {
     height: 641px;
@@ -32,18 +35,24 @@
     line-height: 2px;
     padding-bottom: 50px;
 }
+
 .big-title .head-big-title {
     font-weight: bold;
-    font-size: 5.7rem;
-
+    font-size: calc(30px + (90 - 30) * ((100vw - 300px) / (1600 - 300)));
 }
 .big-title  p {
-    font-size: 2.1rem;
+    font-size: calc(16px + (36 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 /*Fiveth-box------------------*/
 .fiveth-box {
     margin-top: -73px;
     height: 730px;
+}
+@media (max-width: 1138px){
+    .fiveth-box {
+        margin-top: 0px;
+        height: 730px;
+    }
 }
 .fiveth-head {
     position: absolute;
@@ -93,7 +102,7 @@
     float: none;
 }
 .see-more .button {
-    color: rgb(71, 71, 252);
+    color: rgb(80, 80, 224);
 }
 /* sixth-box---------------- */
 .sixth-box {
@@ -181,6 +190,15 @@
     margin-top: -115px;
     height: 425px;
 }
+@media (max-width: 1138px){
+    .nineth-box {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+  
+}
+
 
 /*header-first-box-----------------*/
 .header-first-box {
