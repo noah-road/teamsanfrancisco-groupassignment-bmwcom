@@ -192,8 +192,8 @@
 }
 @media (max-width: 1138px){
     .nineth-box {
-        position: absolute;
-        top: 0;
+        position: relative;
+        top: 125px;
         right: 0;
     }
   
