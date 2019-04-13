@@ -1,0 +1,308 @@
+.blocks-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 125px;
+}
+@media (max-width: 1000px) {
+    .blocks-container {
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;  
+    }
+}
+.boxes {
+    max-width: 344px;
+    height: 715px;
+    border: 1px solid rgb(182, 182, 182);
+    margin: 0px 15px 15px 15px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+@media (max-width: 1138px){
+    .third-box {
+        margin-top: 50px;
+    }
+}
+.second-box {
+    height: 641px;
+    margin-bottom: 0px;
+}
+/*Big-title-----------------*/
+.big-title {
+    text-align: center;
+    line-height: 2px;
+    padding-bottom: 50px;
+}
+
+.big-title .head-big-title {
+    font-weight: bold;
+    font-size: calc(30px + (90 - 30) * ((100vw - 300px) / (1600 - 300)));
+}
+.big-title  p {
+    font-size: calc(16px + (36 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+/*Fiveth-box------------------*/
+.fiveth-box {
+    margin-top: -73px;
+    height: 730px;
+}
+@media (max-width: 1138px){
+    .fiveth-box {
+        margin-top: 0px;
+        height: 730px;
+    }
+}
+.fiveth-head {
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(black, rgba(255, 255, 255, 0));
+}
+.part3 .button-facebook {
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 50px
+  }
+.span-top-fiveth {
+    color: rgb(255, 255, 255);
+}
+.fiveth-under-img2 {
+  max-height: 180px;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 10px;
+  margin-top: -15px;
+  font-size: .9em;
+  line-height: 1.3em
+}
+.fiveth-under-img2::before {
+    content: "";
+    display: block;
+    background: rgb(14, 13, 13);
+    width: 2rem;
+    height: 1.5px;
+    position: relative;
+    top: .5rem;
+}
+.fiveth-under-img1 {
+  padding: 0px 10px;
+  margin-top: -15px;
+  font-size: .9em;
+  line-height: 1.3em
+}
+.three-font .fas {
+    display: inline-block;
+    color: gray;
+    margin: 3px 13px;
+    font-size: .8rem;
+    float: none;
+}
+.see-more .button {
+    color: rgb(80, 80, 224);
+}
+/* sixth-box---------------- */
+.sixth-box {
+    height: 530px
+}
+.sixth-head {
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(255, 255, 255, 0));
+}
+.sixth-under-img1 {
+    padding-left: 13px;
+}
+/*seventh-box----------------------*/
+.seventh-box {
+    height: 429px;
+    margin-top: 25px;
+}
+.seventh-head {
+    position: absolute;
+    z-index: 3;
+}
+.three-font-seventh {
+    position: relative;
+    bottom: 41px
+}
+/*eightth -box-------------------*/
+.eightth-box {
+    height: 425px;
+    margin-top: -27px;
+}
+.exclamation {
+    position: absolute;
+    z-index: 2;
+    width: 342px;
+    padding: 10px;
+}
+.anchor-index .fa-exclamation-circle{
+    color: white;
+    font-size: .9rem;
+}
+.eight-twitter {
+    position: relative;
+    left: 160px;
+    padding: 10px;
+}
+.eightth-anchor {
+    padding: 10px;
+}
+.under-eight {
+    margin-bottom: -21px;
+}
+.under-eight p {
+    padding: 10px;
+    font-size: 14px
+}
+
+.under-eight2 {
+    display: inline;
+    font-size: 12px;
+    display: flex;
+    align-items: baseline;
+    padding: 0px 17px;
+}
+.under-eight2 .anchor18 {
+    color: gray;
+}
+.under-eight2 .anchor18 .fa-heart {
+    font-size: 12px;
+    margin-right: 15px
+}
+.under-eight3 .anchor88 .far {
+    font-size: 1em;
+    padding-left: 1.5em;
+    color: rgb(105, 105, 248);
+}
+.under-eight3 .anchor88 .fa-chevron-right{
+    font-size: .9rem;
+}
+.hr-under-eight {
+    margin: 5px 10px;
+}
+/*nineth-box-------------------*/
+.nineth-box {
+    margin-top: -115px;
+    height: 425px;
+}
+@media (max-width: 1138px){
+    .nineth-box {
+        position: relative;
+        top: 125px;
+        right: 0;
+    }
+  
+}
+
+
+/*header-first-box-----------------*/
+.header-first-box {
+    width: 344px;
+    height: 54px;
+    display: flex;
+}
+.part1 {
+    margin-right: 10px;
+}
+.part2 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: .9rem;
+}
+.part3 {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.hr-under {
+    margin: 10px;
+}
+/* anchor and button*/
+.part3 .button {
+  background-color: rgb(71, 114, 255);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+.button:focus,
+.button:hover {
+  background-color: rgba(9, 107, 255, 0.781);
+}
+.main-anchor {
+    text-decoration: none;
+    color: #000;
+}
+.anchor9 {
+    color: gray;
+}
+.top .main-anchor img {
+    width: 34px;
+    margin: 10px;
+}
+.anchor2:hover {
+    text-decoration: underline;
+}
+.span-gray {
+    color: rgb(128, 128, 128);
+    display: block;
+    font-size: .7rem;
+    margin-top: 3px;
+}
+/*underthe big img*/
+.under-img1 {
+   margin-top: -4px;
+   padding-left: 15px;
+   font-size: .8rem;
+   font-weight: bold;
+}
+.anchor5 {
+    text-decoration: none;
+    color: rgb(103, 103, 255)
+}
+.under-img2 {
+   padding-left: 15px;
+   font-size: .8rem;
+   font-weight: bold;
+}
+.under-img3 {
+    height: 120px;
+    padding-left: 15px;
+}
+.far {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 3px;
+}
+.far:hover {
+    color:red;
+}
+.fa-comment:hover {
+    color:gray;
+}
+.fa-bookmark {
+    display: block;
+    font-size: 1.5rem;
+    float: right;
+    margin: 3px 13px;
+}
+.fa-bookmark:hover {
+    color: gray;
+}
+.fas {
+    display: block;
+    font-size: 1.5rem;
+    float: right;
+    margin: 3px 13px;
+}
+.fas:hover {
+    color: gray;
+}
